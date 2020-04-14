@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>player</id>
+    <version>1.0.0</version>
+    <authors>player</authors>
+    <owners>player</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="WindowsAPICodePack-Shell" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="taglib" version="2.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="F:\source\repos\player\player\bin\Debug\netcoreapp3.1\player.runtimeconfig.json" target="lib\netcoreapp3.1\player.runtimeconfig.json" />
+    <file src="F:\source\repos\player\player\bin\Debug\netcoreapp3.1\player.dll" target="lib\netcoreapp3.1\player.dll" />
+  </files>
+</package>
